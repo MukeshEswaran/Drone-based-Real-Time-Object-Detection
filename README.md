@@ -25,20 +25,3 @@ This project implements a real-time drone surveillance system that detects, trac
 
 ---
 
-## 📁 Project Structure
-
-```bash
-📦drone-object-tracker
- ┣ 📂models/
- ┃ ┣ yolov8_weights.pt
- ┃ ┗ reid_model.onnx
- ┣ 📂data/
- ┃ ┣ visdrone/
- ┃ ┗ ...
- ┣ 📂scripts/
- ┃ ┣ detect_and_track.py
- ┃ ┣ yolo_inference.py
- ┃ ┗ deep_sort_tracker.py
- ┣ main.py
- ┣ README.md
- ┗ requirements.txt
